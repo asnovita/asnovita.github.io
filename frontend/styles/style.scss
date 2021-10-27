@@ -1,0 +1,101 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  min-height: 2000px;
+  background-color: #fefdfa;
+}
+
+.navbar {
+  background-color: #fefdfa;
+}
+
+.jumbotron {
+  background-color: #fefdfa;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+
+  p {
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 300;
+  }
+}
+
+#location {
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  p {
+    font-size: 14px;
+    color: #f85e3c;
+    margin-top: 0px;
+  }
+}
+
+#pin {
+  margin-top: 2px;
+  margin-right: 8px;
+  border-radius: 6px;
+}
+
+.heroimage {
+  background-position: center !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+}
+
+.aboutme {
+  background-color: #fefdfa;
+}
+
+.bodytext {
+  font-size: 18px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card {
+  border-radius: none !important;
+}
+
+.menuLink {
+  display: flex;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 20px;
+
+  p {
+    margin-top: 4px;
+    padding-left: 15px;
+  }
+}
+
+.pageSection {
+  margin-top: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .card-title {
+    margin-top: 45px;
+  }
+}
